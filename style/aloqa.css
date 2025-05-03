@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    z-index: 1;
 }
 
 .logo {
@@ -209,9 +209,11 @@ body {
 .home-sci {
     position: absolute;
     bottom: 40px;
-    width: 250px;
+    width: 700px;
     display: flex;
     justify-content: space-between;
+    margin: 15px;
+    font-size: 24px;
 }
 
 
@@ -225,7 +227,7 @@ body {
     background: #081b29;
     animation: showRight 1s ease forwards;
     animation-delay: .2.5s;
-    z-index: 2;}
+    z-index: 100;}
 
 .home-sci a {
     position: relative;
